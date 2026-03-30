@@ -1,4 +1,5 @@
 **Cloud Terminology in Cloud Computing**
+
 **Virtualization**
 
 Virtualization is the process of creating a virtual version of computing resources such as an operating system, server, storage, or network. It allows multiple virtual environments to run on a single physical system.
