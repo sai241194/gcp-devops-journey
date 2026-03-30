@@ -50,6 +50,7 @@ Cloud Shell is a browser-based terminal provided by Google Cloud.
 - No local setup required
 
 **Useful starter commands:**
+
 gcloud auth list
 
 gcloud config list
@@ -59,6 +60,7 @@ gcloud projects list
  
 
 **Outcome of Phase-01**:
+
 Understood cloud computing fundamentals 
 
 Created Google Cloud account 
