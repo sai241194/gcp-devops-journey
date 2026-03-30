@@ -1,7 +1,7 @@
 **Phase-01 — Introduction to Cloud Computing and Google Cloud**
 
 **What is Cloud Computing?**
-•	Cloud computing is the practice of using computing resources such as servers, storage, databases, and networking over the internet on a pay-as-you-go basis, instead of owning and maintaining physical hardware.
+Cloud computing is the practice of using computing resources such as servers, storage, databases, and networking over the internet on a pay-as-you-go basis, instead of owning and maintaining physical hardware.
 
 
 You consume resources when needed and release them when not in use.
@@ -53,7 +53,7 @@ gcloud projects list
 
  
 
-Outcome of Phase-01
+**Outcome of Phase-01**:
 Understood cloud computing fundamentals 
 Created Google Cloud account 
 Explored Console and Cloud Shell 
