@@ -5,6 +5,7 @@ Cloud computing is the practice of using computing resources such as servers, st
 
 
 You consume resources when needed and release them when not in use.
+
 **Cloud providers:** Google Cloud (GCP), Amazon Web Services (AWS), Microsoft Azure
 
 **Traditional IT vs Cloud**
