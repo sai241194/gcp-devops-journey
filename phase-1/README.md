@@ -8,7 +8,7 @@ You consume resources when needed and release them when not in use.
 
 **Cloud providers:** Google Cloud (GCP), Amazon Web Services (AWS), Microsoft Azure
 
-**Traditional IT vs Cloud**
+**Traditional IT vs Cloud**:
 
 Traditional IT	Cloud (GCP)
 Buy servers upfront	Rent what you need
@@ -49,7 +49,9 @@ Cloud Shell is a browser-based terminal provided by Google Cloud.
 
 **Useful starter commands:**
 gcloud auth list
+
 gcloud config list
+
 gcloud projects list
 
  
