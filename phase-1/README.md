@@ -37,7 +37,9 @@ You won’t be charged unless you explicitly upgrade or exceed limits.
 **Tour of the Google Cloud Console**:
 
 The Google Cloud Console is the web interface used to manage projects, billing, IAM, compute, storage, and networking services.
+
 URL: https://console.cloud.google.com
+
 You will use this daily to create and manage resources.
 Using Cloud Shell
 Cloud Shell is a browser-based terminal provided by Google Cloud.
@@ -58,8 +60,11 @@ gcloud projects list
 
 **Outcome of Phase-01**:
 Understood cloud computing fundamentals 
+
 Created Google Cloud account 
+
 Explored Console and Cloud Shell 
+
 Executed basic gcloud commands
 
 
