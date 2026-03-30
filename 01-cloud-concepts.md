@@ -2,7 +2,7 @@
 
 **What is Cloud?**
 
-In simple terms, the cloud is a vast virtual space on the internet where you can store files, run applications, and access services without owning or managing physical hardware.
+In simple terms, the cloud is a vast,virtual space on the internet where you can store files, run applications, and access services without owning or managing physical hardware.
 
 It is like using a powerful computer located somewhere on the internet. Users can access data and applications from anywhere with an internet connection.
 
@@ -21,7 +21,7 @@ Cloud computing allows organizations to choose the deployment model that best su
 
 **Public Cloud**
 
-****Who uses it:** **Individuals, businesses, and organizations.
+**Who uses it:** **Individuals, businesses, and organizations.
 
 **What it’s like:** A large shared environment on the internet where computing resources are available to anyone on demand.
 
@@ -64,5 +64,7 @@ Better workload distribution
 
 
 **Public Cloud:** Shared environment available to everyone.
+
 **Private Cloud**: Dedicated environment for one organization.
+
 **Hybrid Cloud**: A mix of both public and private cloud for flexibility.
