@@ -1,6 +1,6 @@
-**Basics of Cloud Computing
+**Basics of Cloud Computing**
 
-What is Cloud?**
+**What is Cloud?**
 
 In simple terms, the cloud is a vast virtual space on the internet where you can store files, run applications, and access services without owning or managing physical hardware.
 
