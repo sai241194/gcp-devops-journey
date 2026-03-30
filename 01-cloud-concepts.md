@@ -19,7 +19,7 @@ These services are hosted in data centers around the world.
 
 Cloud computing allows organizations to choose the deployment model that best suits their needs based on security, cost, scalability, and flexibility.
 
-**Public Cloud**
+**Public Cloud**:
 
 **Who uses it:** Individuals, businesses, and organizations.
 
@@ -33,7 +33,7 @@ No hardware maintenance
 Pay-as-you-go pricing
 Highly scalable
 
-**Private Cloud**
+**Private Cloud**:
 
 **Who uses it:** A single organization.
 
@@ -46,7 +46,8 @@ Highly scalable
 High security and control
 Custom configuration
 Suitable for sensitive workloads
-Hybrid Cloud
+
+**Hybrid Cloud**:
 
 **Who uses it:** Organizations that need both flexibility and security.
 
