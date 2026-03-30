@@ -19,7 +19,7 @@ These services are hosted in data centers around the world.
 
 Cloud computing allows organizations to choose the deployment model that best suits their needs based on security, cost, scalability, and flexibility.
 
-****Public Cloud**
+**Public Cloud**
 
 ****Who uses it:** **Individuals, businesses, and organizations.
 
@@ -61,6 +61,7 @@ Cost optimization
 Better workload distribution
 
 **In a Nutshell:**
+
 
 **Public Cloud:** Shared environment available to everyone.
 **Private Cloud**: Dedicated environment for one organization.
