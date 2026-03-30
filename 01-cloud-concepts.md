@@ -1,92 +1,64 @@
-***Basics of Cloud Computing***
+**Basics of Cloud Computing
 
-***What is Cloud?***
+What is Cloud?**
 
-<i>In simple terms, the cloud is a vast virtual space on the internet where you can store files, run applications, and access services without owning or managing physical hardware.</i>
+In simple terms, the cloud is a vast virtual space on the internet where you can store files, run applications, and access services without owning or managing physical hardware.
 
-<i>It is like using a powerful computer located somewhere on the internet. Users can access data and applications from anywhere with an internet connection.</i>
+It is like using a powerful computer located somewhere on the internet. Users can access data and applications from anywhere with an internet connection.
 
-<i>**What is Cloud Computing?**</i>
+What is Cloud Computing?
 
-<i>Cloud computing is a technology model that delivers computing services over the internet.</i>
+Cloud computing is a technology model that delivers computing services over the internet.
 
-<i>Instead of owning and maintaining physical servers and infrastructure, users can access computing resources such as servers, storage, databases, networking, and software from:</i>
+Instead of owning and maintaining physical servers and infrastructure, users can access computing resources such as servers, storage, databases, networking, and software from:
 
-<i>•	Third-party service providers (**Public Cloud)**, or </i>
+Third-party service providers (Public Cloud)
+Their own organization’s infrastructure (Private Cloud)
 
-<i>•	Their own organization’s infrastructure (**Private Cloud**) </i>
+These services are hosted in data centers around the world.
 
-<i>These services are hosted in data centers around the world.</i>
+Cloud computing allows organizations to choose the deployment model that best suits their needs based on security, cost, scalability, and flexibility.
 
-<i>Cloud computing allows organizations to choose the deployment model that best suits their needs based on security, cost, scalability, and flexibility.</i>
+Public Cloud
 
+Who uses it: Individuals, businesses, and organizations.
 
+What it’s like: A large shared environment on the internet where computing resources are available to anyone on demand.
 
-<i>**Public Cloud**</i>
+Examples: Google Drive, Amazon Web Services
 
-<i>**Who uses it**: Individuals, businesses, and organizations.</i>
+Key Benefits:
 
-<i>**What it’s like**: A large shared environment on the internet where computing resources are available to anyone on demand.</i>
+No hardware maintenance
+Pay-as-you-go pricing
+Highly scalable
+Private Cloud
 
-<i>**Examples**: Google Drive, Amazon Web Services</i>
+Who uses it: A single organization.
 
-<i>**Key Benefits**:</i>
+What it’s like: A dedicated cloud environment used only by one organization. It offers greater control, customization, and security.
 
-<i>•	No hardware maintenance </i>
+Example: A company hosting applications on its own internal servers or private data center.
 
-<i>•	Pay-as-you-go pricing </i>
+Key Benefits:
 
-<i>•	Highly scalable </i>
+High security and control
+Custom configuration
+Suitable for sensitive workloads
+Hybrid Cloud
 
+Who uses it: Organizations that need both flexibility and security.
 
+What it’s like: A combination of private and public cloud environments working together.
 
-<i>**Private Cloud**</i>
+Example: A company storing sensitive data in a private cloud while using the public cloud for additional storage or high workloads.
 
-<i>**Who uses it**: A single organization.</i>
+Key Benefits:
 
-<i>**What it’s like**: A dedicated cloud environment used only by one organization. It offers greater control, customization, and security.</i>
-
-<i>**Example:** A company hosting applications on its own internal servers or private data center.</i>
-
-<i>**Key Benefits:**</i>
-
-<i>•	High security and control </i>
-
-<i>•	Custom configuration </i>
-
-<i>•	Suitable for sensitive workloads </i>
-
-
-
-<i>**Hybrid Cloud**</i>
-
-<i>**Who uses it:** Organizations that need both flexibility and security.</i>
-
-<i>**What it’s like:** A combination of private and public cloud environments working together.</i>
-
-<i>**Example:** A company storing sensitive data in a private cloud while using the public cloud for additional storage or high workloads.</i>
-
-<i>**Key Benefits:**</i>
-
-<i>•	Flexibility </i>
-
-<i>•	Cost optimization </i>
-
-<i>•	Better workload distribution </i>
-
-
-
-
-
-<i>**In a Nutshell**</i>
-
-<i>•	<b>Public Cloud:</b> Shared environment available to everyone. </i>
-
-<i>•	**Private Cloud**: Dedicated environment for one organization. </i>
-
-<i>•	**Hybrid Cloud:** A mix of both public and private cloud for flexibility. </i>
-
-
-
-
-
+Flexibility
+Cost optimization
+Better workload distribution
+In a Nutshell
+Public Cloud: Shared environment available to everyone.
+Private Cloud: Dedicated environment for one organization.
+Hybrid Cloud: A mix of both public and private cloud for flexibility.
