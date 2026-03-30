@@ -21,7 +21,7 @@ Cloud computing allows organizations to choose the deployment model that best su
 
 **Public Cloud**
 
-**Who uses it:** **Individuals, businesses, and organizations.
+**Who uses it:** Individuals, businesses, and organizations.
 
 **What it’s like:** A large shared environment on the internet where computing resources are available to anyone on demand.
 
