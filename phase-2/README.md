@@ -1,1 +1,1 @@
-**phase-02 — GCP Project and Billing Management**
+**Phase-02 — GCP Project and Billing Management**
