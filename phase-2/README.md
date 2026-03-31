@@ -21,14 +21,21 @@ In GCP, resources are organized in this hierarchy:
 Everything you create must be inside a Project. You cannot create resources without a project.
 
 **What is a GCP Project?**
+
 A Project is like a separate workspace where all your cloud resources live.
 
 Inside a project, you manage:
+
 • Virtual Machines
+
 • Storage Buckets
+
 • Databases
+
 • IAM permissions
+
 • API access
+
 • Billing usage
 
 Each project has its own billing, IAM roles, APIs, and resources.
