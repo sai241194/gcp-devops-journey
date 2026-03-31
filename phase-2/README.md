@@ -63,6 +63,7 @@ Note: Alerts only notify you. They do not stop services.
 
 **Step 3: Enable Required APIs**
 **APIs to enable:**
+
 • Compute Engine API
 
 • Cloud Storage API
@@ -79,6 +80,7 @@ Note: Alerts only notify you. They do not stop services.
 1.	Go to **APIs & Services → Library**
 2.	Search each API by name and click **Enable**
 Alternatively, use Cloud Shell:
+
 
 gcloud services enable compute.googleapis.com \
     storage.googleapis.com \
