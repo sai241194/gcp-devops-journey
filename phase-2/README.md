@@ -77,6 +77,7 @@ This project will be used for all upcoming labs.
 Note: Alerts only notify you. They do not stop services.
 
 **Step 3: Enable Required APIs**
+
 **APIs to enable:**
 
 • Compute Engine API
