@@ -1,6 +1,6 @@
 **Phase-02 — GCP Project and Billing Management**
 
-**Learning Objectives**
+**Learning Objectives**:
 
 • What is the GCP hierarchy
 
@@ -12,7 +12,7 @@
 
 • How to enable required APIs before using services
 
-**GCP Hierarchy**
+**GCP Hierarchy**:
 
 In GCP, resources are organized in this hierarchy:
  
@@ -20,7 +20,7 @@ In GCP, resources are organized in this hierarchy:
 
 Everything you create must be inside a Project. You cannot create resources without a project.
 
-**What is a GCP Project?**
+**What is a GCP Project?**:
 
 A Project is like a separate workspace where all your cloud resources live.
 
@@ -41,7 +41,7 @@ Inside a project, you manage:
 Each project has its own billing, IAM roles, APIs, and resources.
 Multiple projects can share the same billing account.
 
-**Billing Account in GCP**
+**Billing Account in GCP**:
 
 When you sign up for GCP free tier, a billing account is automatically created and linked to your default project.
 
