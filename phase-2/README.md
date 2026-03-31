@@ -3,9 +3,13 @@
 **Learning Objectives**
 
 • What is the GCP hierarchy
+
 • What is a Project and why it is important
+
 • How Billing Accounts work in GCP
+
 • How to set Budget alerts to avoid unexpected charges
+
 • How to enable required APIs before using services
 
 **GCP Hierarchy**
