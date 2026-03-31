@@ -98,12 +98,14 @@ Note: Alerts only notify you. They do not stop services.
 Alternatively, use Cloud Shell:
 
 
+```bash
 gcloud services enable compute.googleapis.com \
-    storage.googleapis.com \
-    monitoring.googleapis.com \
-    logging.googleapis.com \
-    cloudresourcemanager.googleapis.com \
-    iamcredentials.googleapis.com 
+  storage.googleapis.com \
+  monitoring.googleapis.com \
+  logging.googleapis.com \
+  cloudresourcemanager.googleapis.com \
+  iamcredentials.googleapis.com
+```
 
 
 
