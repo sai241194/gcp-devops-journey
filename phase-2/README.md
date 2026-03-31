@@ -48,7 +48,9 @@ When you sign up for GCP free tier, a billing account is automatically created a
 **Important Points:**
 
 • One billing account can be linked to multiple projects
+
 • Budget alerts can be set to track spending
+
 • GCP does not stop services automatically when budget is reached
 
 **Step 1: Create a New Project**
