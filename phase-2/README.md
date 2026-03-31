@@ -15,6 +15,9 @@
 **GCP Hierarchy**:
 
 In GCP, resources are organized in this hierarchy:
+
+<img width="543" height="543" alt="image" src="https://github.com/user-attachments/assets/75863880-9b61-483e-9467-8c95d36b37c3" />
+
  
 
 
