@@ -13,6 +13,7 @@
 • How to enable required APIs before using services
 
 **GCP Hierarchy**
+
 In GCP, resources are organized in this hierarchy:
  
 
