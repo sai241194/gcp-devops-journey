@@ -103,7 +103,7 @@ gcloud services enable compute.googleapis.com \
     monitoring.googleapis.com \
     logging.googleapis.com \
     cloudresourcemanager.googleapis.com \
-    iamcredentials.googleapis.com
+    iamcredentials.googleapis.com 
 
 
 
