@@ -44,9 +44,72 @@ Authorization → What can you do? (Roles/Permissions)
 | Custom Roles     | User-defined permissions                 | compute.instances.start|
 
 **IAM Policy Hierarchy**
+
 •	Organization
+
 •	Folder
+
 •	Project
+
 •	Resource
+
 Note: Permissions inherit from parent to child unless explicitly overridden.
+
+
+**IAM Best Practices for DevOps**
+
+•	Follow Least Privilege principle
+•	Avoid Basic Roles
+•	Use Service Accounts for automation
+•	Rotate keys and secrets regularly
+•	Audit IAM permissions frequently
+
+🧪 **Practical Task**
+
+🔧** Practical Task 1: Create Project & Assign Viewer Role**
+
+```bash
+export PROJECT_ID="devops-iam-demo-$(date +%s)"
+gcloud projects create $PROJECT_ID
+gcloud config set project $PROJECT_ID
+
+gcloud projects add-iam-policy-binding $PROJECT_ID \
+  --member="user:devops.engineer@example.com" \
+  --role="roles/viewer"
+
+
+🔧**Practical Task 2: Create a Service Account & Grant Role**
+
+```bash
+gcloud iam service-accounts create devops-bot \
+  --display-name="DevOps Pipeline Bot"
+
+gcloud projects add-iam-policy-binding $PROJECT_ID \
+  --member="serviceAccount:devops-bot@$PROJECT_ID.iam.gserviceaccount.com" \
+  --role="roles/cloudbuild.builds.editor"
+
+
+**Real-World DevOps Scenario**
+
+**Use Case**: Cloud Build should deploy to GKE but must NOT delete clusters.
+
+**Solution:**
+
+Create Custom Role with only container.deployments.create permission.
+Assign role to Service Account.
+Use that Service Account in CI/CD pipeline.
+
+**Outcome of Phase-03**
+
+•	Understood IAM fundamentals
+•	Assigned roles using Console and Cloud Shell
+•	Given limited access to a junior user
+•	Created and used a Service Account
+•	Learned IAM hierarchy and best practices
+
+
+
+
+
+
 
