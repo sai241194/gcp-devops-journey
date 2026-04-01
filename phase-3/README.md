@@ -83,6 +83,16 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
   --role="roles/viewer"
 
 
+ **Practical Task 2:Create Project & Assign Viewer Role**
+
+gcloud iam service-accounts create devops-bot \
+  --display-name="DevOps Pipeline Bot"
+
+gcloud projects add-iam-policy-binding $PROJECT_ID \
+  --member="serviceAccount:devops-bot@$PROJECT_ID.iam.gserviceaccount.com" \
+  --role="roles/cloudbuild.builds.editor"
+
+
 
 
 
