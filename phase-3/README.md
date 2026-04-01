@@ -85,7 +85,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
    🔧 **Practical Task 2:Create a Service Account & Grant Role** 
 ```bash
 
-   gcloud iam service-accounts create devops-bot \
+gcloud iam service-accounts create devops-bot \
   --display-name="DevOps Pipeline Bot"
 
 gcloud projects add-iam-policy-binding $PROJECT_ID \
