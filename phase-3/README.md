@@ -59,10 +59,15 @@ Note: Permissions inherit from parent to child unless explicitly overridden.
 **IAM Best Practices for DevOps**
 
 •	Follow Least Privilege principle
+
 •	Avoid Basic Roles
+
 •	Use Service Accounts for automation
+
 •	Rotate keys and secrets regularly
+
 •	Audit IAM permissions frequently
+
 
 🧪 **Practical Task**
 
@@ -79,7 +84,6 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 
 
 🔧**Practical Task 2: Create a Service Account & Grant Role**
-
 ```bash
 gcloud iam service-accounts create devops-bot \
   --display-name="DevOps Pipeline Bot"
