@@ -108,6 +108,21 @@ gcloud services enable compute.googleapis.com \
   iamcredentials.googleapis.com
 ```
 
+Outcome of Phase-02
+
+By now you have:
+
+• Created a new project
+
+• Linked billing properly
+
+• Set budget alerts
+
+• Enabled core APIs
+
+
+
+
 
 
 
