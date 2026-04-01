@@ -26,28 +26,22 @@ Authentication → Who are you? (Users/Groups/Service Accounts)
 
 Authorization → What can you do? (Roles/Permissions)
 
-**Core IAM Components**
+## Core IAM Components
 
-**Component	    Description**
+| Component | Description |
+|-----------|-------------|
+| Identity  | A user, group, domain, or service account |
+| Role      | A collection of permissions |
+| Policy    | Binding of identity to a role |
+| Resource  | Project, VM, Bucket, Database, etc. |
 
-Identity	       A user, group, domain, or service account
+## Types of IAM Roles
 
-Role	           A collection of permissions
-
-Policy	         Binding of identity to a role
-
-Resource	       Project, VM, Bucket, Database, etc.
-
-
-
-
-
-
-**Types of IAM Roles**
-**Role Type	Description	Example**
-**Basic Roles**	Broad, legacy roles (not recommended)	Owner, Editor, Viewer
-**Predefined Roles**	Fine-grained, service-specific	roles/storage.admin
-**Custom Roles**	User-defined permissions	compute.instances.start
+| Role Type        | Description                              | Example                 |
+|------------------|------------------------------------------|-------------------------|
+| Basic Roles      | Broad, legacy roles (not recommended)    | Owner, Editor, Viewer  |
+| Predefined Roles | Fine-grained, service-specific           | roles/storage.admin    |
+| Custom Roles     | User-defined permissions                 | compute.instances.start|
 
 **IAM Policy Hierarchy**
 •	Organization
