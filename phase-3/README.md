@@ -81,6 +81,7 @@ gcloud config set project $PROJECT_ID
 gcloud projects add-iam-policy-binding $PROJECT_ID \
   --member="user:devops.engineer@example.com" \
   --role="roles/viewer"
+```
 
 
 
