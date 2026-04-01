@@ -83,34 +83,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
   --role="roles/viewer"
 
 
-🔧**Practical Task 2: Create a Service Account & Grant Role**
 
-
-gcloud iam service-accounts create devops-bot \
-  --display-name="DevOps Pipeline Bot"
-
-gcloud projects add-iam-policy-binding $PROJECT_ID \
-  --member="serviceAccount:devops-bot@$PROJECT_ID.iam.gserviceaccount.com" \
-  --role="roles/cloudbuild.builds.editor"
-
-
-**Real-World DevOps Scenario**
-
-**Use Case**: Cloud Build should deploy to GKE but must NOT delete clusters.
-
-**Solution:**
-
-Create Custom Role with only container.deployments.create permission.
-Assign role to Service Account.
-Use that Service Account in CI/CD pipeline.
-
-**Outcome of Phase-03**
-
-•	Understood IAM fundamentals
-•	Assigned roles using Console and Cloud Shell
-•	Given limited access to a junior user
-•	Created and used a Service Account
-•	Learned IAM hierarchy and best practices
 
 
 
