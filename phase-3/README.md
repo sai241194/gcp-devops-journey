@@ -73,25 +73,6 @@ Note: Permissions inherit from parent to child unless explicitly overridden.
 
 🔧 **Practical Task 1:Create Project & Assign Viewer Role** 
 
-```bash
-export PROJECT_ID="devops-iam-demo-$(date +%s)"
-gcloud projects create $PROJECT_ID
-gcloud config set project $PROJECT_ID
-
-gcloud projects add-iam-policy-binding $PROJECT_ID \
-  --member="user:devops.engineer@example.com" \
-  --role="roles/viewer"
-
-
- **Practical Task 2:Create Project & Assign Viewer Role**
-
-gcloud iam service-accounts create devops-bot \
-  --display-name="DevOps Pipeline Bot"
-
-gcloud projects add-iam-policy-binding $PROJECT_ID \
-  --member="serviceAccount:devops-bot@$PROJECT_ID.iam.gserviceaccount.com" \
-  --role="roles/cloudbuild.builds.editor"
-
 
 
 
