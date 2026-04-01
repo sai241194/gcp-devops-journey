@@ -72,6 +72,7 @@ Note: Permissions inherit from parent to child unless explicitly overridden.
 🧪 **Practical Task**
 
 🔧 **Practical Task 1:Create Project & Assign Viewer Role** 
+```bash
 
 export PROJECT_ID="devops-iam-demo-$(date +%s)"
 gcloud projects create $PROJECT_ID
