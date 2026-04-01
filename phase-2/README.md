@@ -108,7 +108,7 @@ gcloud services enable compute.googleapis.com \
   iamcredentials.googleapis.com
 ```
 
-Outcome of Phase-02
+**Outcome of Phase-02**
 
 By now you have:
 
