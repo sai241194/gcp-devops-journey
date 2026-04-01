@@ -27,12 +27,13 @@ Authentication → Who are you? (Users/Groups/Service Accounts)
 Authorization → What can you do? (Roles/Permissions)
 
 **Core IAM Components**
-**Component	Description**
+
 Component	Description
 Identity	A user, group, domain, or service account
 Role	A collection of permissions
 Policy	Binding of identity to a role
 Resource	Project, VM, Bucket, Database, etc.
+
 
 
 
