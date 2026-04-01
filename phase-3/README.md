@@ -79,7 +79,7 @@ gcloud projects create $PROJECT_ID
 gcloud config set project $PROJECT_ID
 
 gcloud projects add-iam-policy-binding $PROJECT_ID \
-  --member="user:devops.engineer@example.com" \
+  --member="user:cloud.engineer@example.com" \
   --role="roles/viewer"
 ```
    🔧 **Practical Task 2:Create a Service Account & Grant Role** 
