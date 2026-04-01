@@ -23,14 +23,17 @@ IAM (Identity and Access Management) is the framework that controls who can do w
 Formula: Who → Can do what → On which resource
 
 Authentication → Who are you? (Users/Groups/Service Accounts)
+
 Authorization → What can you do? (Roles/Permissions)
 
 **Core IAM Components**
 **Component	Description**
-**Identity**	A user, group, domain, or service account
-**Role**	A collection of permissions
-**Policy**	Binding of identity to a role
-**Resource**	Project, VM, Bucket, Database, etc.
+Component	Description
+Identity	A user, group, domain, or service account
+Role	A collection of permissions
+Policy	Binding of identity to a role
+Resource	Project, VM, Bucket, Database, etc.
+
 
 
 
