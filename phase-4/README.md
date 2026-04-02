@@ -40,7 +40,7 @@ gcloud compute instances create my-first-vm \
   --image-project=ubuntu-os-cloud \
   --tags=http-server
 
-**# SSH into the instance**
+# SSH into the instance
 
 gcloud compute ssh my-first-vm --zone= asia-south1-a
 ```
@@ -95,22 +95,15 @@ gcloud compute firewall-rules create allow-http \
 **Create a Custom Image from Existing VM:**
 
 # Stop the VM before creating image
-
 ```bash
 gcloud compute instances stop nginx-vm --zone= asia-south1-a
-```
 
 # Create image from disk
-
-```bash
 gcloud compute images create nginx-custom-image \
   --source-disk=nginx-vm \
   --source-disk-zone= asia-south1-a
-```
 
 # Launch a new VM from custom image
-
-```bash
 gcloud compute instances create nginx-from-image \
   --zone= asia-south1-a \
 
