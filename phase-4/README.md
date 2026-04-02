@@ -28,7 +28,7 @@
 | Firewall Rule  | Controls allowed network traffic to and from the VM                |
 
 
-🧪**** **Hands-On Lab******
+🧪 **Hands-On Lab**
 
 **Launch a VM and Connect via SSH Using CLI:**
 
