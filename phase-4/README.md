@@ -105,7 +105,6 @@ gcloud compute images create nginx-custom-image \
 # Launch a new VM from custom image
 gcloud compute instances create nginx-from-image \
   --zone= asia-south1-a \
-
   --machine-type=e2-micro \
   --image=nginx-custom-image \
   --tags=http-server
