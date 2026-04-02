@@ -40,7 +40,7 @@ gcloud compute instances create my-first-vm \
   --image-project=ubuntu-os-cloud \
   --tags=http-server
 
-# **SSH into the instance**
+# SSH into the instance
 
 gcloud compute ssh my-first-vm --zone= asia-south1-a
 ```
