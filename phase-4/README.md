@@ -122,9 +122,13 @@ Suppose you need to:
 
 
 **Approach:**
+
 ✅ Use startup scripts to install and configure software during VM boot
+
 ✅ Configure firewall rules to allow HTTP access from outside
+
 ✅ Create a custom image from the configured VM for consistent reuse
+
 
 **Key Learnings**
 
