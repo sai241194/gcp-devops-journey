@@ -130,7 +130,7 @@ Suppose you need to:
 ✅ Create a custom image from the configured VM for consistent reuse
 
 
-**Key Learnings**
+ **Outcome of Phase-04** 
 
 •	Compute Engine provides virtual machines as part of GCP’s IaaS model. 
 
