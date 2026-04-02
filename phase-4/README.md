@@ -62,11 +62,13 @@ ps -aux|grep nginx
 
 **To test:**
 
+```bash
 curl http://localhost
+```
 
-**
-Install NGINX Automatically via Startup Script:**
+**Install NGINX Automatically via Startup Script:**
 
+```bash
 gcloud compute instances create nginx-vm \
   --zone= asia-south1-a \
   --machine-type=e2-micro \
@@ -78,6 +80,7 @@ apt install -y nginx
 systemctl enable nginx
 systemctl start nginx' \
   --tags=http-server
+```
 
 **Enable Firewall Rule for HTTP Access:**
 
@@ -122,6 +125,7 @@ gcloud compute instances create nginx-from-image \
 **Real-World DevOps Use Case**
 
 Suppose you need to:
+
 •	Provision a VM that installs NGINX automatically at launch 
 
 •	Make the application reachable from the internet 
