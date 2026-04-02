@@ -58,7 +58,7 @@ sudo systemctl start nginx
 sudo systemctl status nginx
 ps -aux|grep nginx
 
-**To test:**
+To test:
 
 curl http://localhost
 ```
