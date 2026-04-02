@@ -93,8 +93,8 @@ gcloud compute firewall-rules create allow-http \
 
 
 **Create a Custom Image from Existing VM:**
-# Stop the VM before creating image
 ```bash
+# Stop the VM before creating image
 gcloud compute instances stop nginx-vm --zone= asia-south1-a
 
 # Create image from disk
