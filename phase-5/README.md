@@ -113,15 +113,7 @@ Create a new project: gcs-demo-bucket
 
 •	Machine type: e2-micro 
 
-Security Section
-
-Attach the Service Account: gcs-demo
-
-Advanced Options
-
-Select Spot as provisioning model.
-
-**Step 5: Access GCS from VM**
+.**Step 5: Access GCS from VM**
 
 •	SSH into the VM from the console.
 
