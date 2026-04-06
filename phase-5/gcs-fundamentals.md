@@ -56,7 +56,7 @@ You can decide where your bucket data physically resides:
 
 **6) Cost Model and Optimization**
 
-•**	Pay only for what you use** (no upfront capacity planning).
+•**Pay only for what you use** (no upfront capacity planning).
 
 •	Costs include:
 
