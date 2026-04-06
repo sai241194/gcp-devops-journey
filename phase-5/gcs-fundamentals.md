@@ -34,6 +34,7 @@ It is commonly compared to **Amazon S3 and Azure Blob Storage** and is heavily u
 **4) Flexible Location Options**
 
 You can decide where your bucket data physically resides:
+
 •	**Region** – Data remains in a single geographic location (e.g., asia-south1) 
 
 
