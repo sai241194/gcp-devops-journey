@@ -77,7 +77,7 @@ GCS offers:
 
 •	Low latency reads and writes 
 
-•	Strong global** read-after-write consistency** (latest version is immediately available after upload) 
+•	Strong global**read-after-write consistency** (latest version is immediately available after upload) 
 
 
 **8) DevOps and Analytics Integrations**
