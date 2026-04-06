@@ -10,13 +10,15 @@
 
 5.	**Pub/Sub** – Messaging and event streaming service for microservices communication.
 
-**Related GCP Services Comparison**
-Service	Type	Scope / Usage	Durability & Availability	Example Equivalent
-Cloud Storage	Object Storage	Regional / multi-regional buckets	99.999999999% durability	AWS S3, Azure Blob
-Filestore	File (NFS)	Shared file systems for VMs / GKE	Regional (zonal redundancy)	AWS EFS, Azure Files
-Local SSD	Block (Ephemeral)	Ultra-fast temporary storage tied to VM	Tied to VM lifecycle	AWS Instance Store
-Bigtable	NoSQL DB	Analytics, monitoring, time-series	Regional replication	AWS DynamoDB (similar)
-Pub/Sub	Messaging Bus	Event-driven, async service communication	Global HA managed	AWS SQS/SNS, Kafka
+## Related GCP Services Comparison
+
+| Service | Type | Scope / Usage | Durability & Availability | Example Equivalent |
+|---|---|---|---|---|
+| Google Cloud Storage | Object Storage | Regional / multi-regional buckets | 99.999999999% durability | AWS S3, Azure Blob Storage |
+| Filestore | File (NFS) | Shared file systems for VMs / GKE | Regional (zonal redundancy) | AWS EFS, Azure Files |
+| Local SSD | Block (Ephemeral) | Ultra-fast temporary storage tied to VM | Tied to VM lifecycle | AWS Instance Store |
+| Cloud Bigtable | NoSQL DB | Analytics, monitoring, time-series | Regional replication | AWS DynamoDB (similar) |
+| Pub/Sub | Messaging Bus | Event-driven, async service communication | Global HA managed | AWS SQS/SNS, Kafka |
 
 **DevOps Use Cases**
 
@@ -127,6 +129,7 @@ Select Spot as provisioning model.
 
 •	Download and upload files between VM and bucket
 .
+
 **Step 6: Cleanup (Very Important)**
 
 •	Delete the VM 
