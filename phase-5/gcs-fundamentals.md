@@ -27,6 +27,8 @@ It is commonly compared to **Amazon S3 and Azure Blob Storage** and is heavily u
 | **Nearline** | Accessed about once per month |
 | **Coldline** | Accessed once per quarter |
 | **Archive** | Rarely accessed, long-term retention |
+
+
 •	Each tier varies in pricing for storage and retrieval operations.
 
 **4) Flexible Location Options**
