@@ -54,11 +54,17 @@ Click Create instance group
 
 Set:
 Name: web-mig
+
 Location: Multiple zones in us-central1
+
 Select zones: us-central1-a, us-central1-b, us-central1-c
+
 Instance template: web-template
+
 Autoscaling: Enable (optional)
+
 Number of instances: 3 (1 per zone)
+
 
 Click Create
 
@@ -69,12 +75,19 @@ Go to VPC network → Firewall
 Click Create firewall rule
 
 Set:
+
 Name: allow-http
+
 Direction: Ingress
+
 Targets: Tags
+
 Target tag: http-server
+
 Source IP ranges: 0.0.0.0/0
+
 Protocols: Allow TCP port 80
+
 
 Click Create
 
@@ -85,8 +98,11 @@ Go to Network services → Health checks
 Click Create a health check
 
 Set:
+
 Name: web-health-check
+
 Protocol: HTTP
+
 Port: 80
 
 Click Create
@@ -101,10 +117,15 @@ Choose:
 HTTP(S) Load Balancer (From Internet to my VMs)
 
 Set:
+
 Name: web-lb
+
 Backend configuration:
+
 Create backend service
+
 Add the MIG (web-mig)
+
 Attach the health check (web-health-check)
 
 Click Next
@@ -112,11 +133,17 @@ Click Next
 🛠️** Step 7: Configure URL Map and Frontend**
 
 In the same wizard:
+
 Leave URL map as default
+
 Frontend:
+
 Protocol: HTTP
+
 Port: 80
+
 Create a new global IP (name it web-ip)
+
 
 Click Create
 
@@ -139,7 +166,9 @@ Click into web-lb
 Click Edit backend service
 
 Enable:
+
 Cloud Logging
+
 Set sample rate: 1.0 (100%)
 
 Save changes
