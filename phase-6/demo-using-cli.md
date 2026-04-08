@@ -20,7 +20,6 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 
 cat <<EOF > startup.sh
 #!/bin/bash
-
 apt update
 apt install -y nginx
 echo "Welcome to Day-7 MIG Demo - $(hostname)" > /var/www/html/index.html
