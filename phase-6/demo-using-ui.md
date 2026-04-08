@@ -23,7 +23,7 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 apt update
 apt install -y nginx
 echo "Welcome to MIG Demo - $(hostname)" > /var/www/html/index.html
-```bash
+```
 
 Save this script as startup.sh on your local machine.
 
