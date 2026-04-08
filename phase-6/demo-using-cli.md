@@ -1,4 +1,4 @@
-🚀** Phase-6: High Availability with MIGs and Load Balancing in GCP**
+🚀**Phase-6: High Availability with MIGs and Load Balancing in GCP**
 
 🎯 **Goal**
 Learn how to deploy a production-ready, highly available web application in GCP using Managed Instance Groups (MIGs), HTTP(S) Load Balancer, and health checks, with observability through Cloud Logging.
@@ -18,6 +18,7 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 
 🛠️**Step 1: Create a Startup Script for Web Server**
 
+bash
 cat <<'EOF' > startup.sh
 #!/bin/bash
 apt update
