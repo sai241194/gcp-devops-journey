@@ -18,7 +18,7 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 
 🛠️**Step 1: Create a Startup Script for Web Server**
 
-cat <<'EOF' > startup.sh
+cat <<EOF > startup.sh
 #!/bin/bash
 apt update
 apt install -y nginx
