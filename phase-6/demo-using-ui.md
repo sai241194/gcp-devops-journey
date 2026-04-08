@@ -35,9 +35,13 @@ Go to Compute Engine → Instance templates
 Click Create instance template
 
 Set:
+
 Name: web-template
+
 Machine type: e2-micro
+
 Boot disk: Debian or Ubuntu
+
 
 Under Advanced options → Automation → Startup script:
 
