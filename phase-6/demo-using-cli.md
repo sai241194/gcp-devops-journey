@@ -18,66 +18,82 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 
 🛠️**Step 1: Create a Startup Script for Web Server**
 
+```bash
 cat <<EOF > startup.sh
 #!/bin/bash
 apt update
 apt install -y nginx
 echo "Welcome to Day-7 MIG Demo - $(hostname)" > /var/www/html/index.html
 EOF
+```
 
 
 🛠️ **Step 2: Create Instance Template**
 
+```bash
 gcloud compute instance-templates create web-template \
   --machine-type=e2-micro \
   --image-family=debian-11 \
   --image-project=debian-cloud \
   --metadata-from-file startup-script=startup.sh \
   --tags=http-server
+```
   
 🛠️ **Step 3: Create Managed Instance Group Across 3 Zones**
 
+```bash
 gcloud compute instance-groups managed create web-mig \
   --base-instance-name=web \
   --size=3 \
   --template=web-template \
   --zones=us-central1-a,us-central1-b,us-central1-c
+```
   
 🛠️**Step 4: Expose Web Traffic via Firewall Rule**
 
+```bash
 gcloud compute firewall-rules create allow-http \
   --allow=tcp:80 \
   --target-tags=http-server \
   --description="Allow HTTP traffic to web servers"
+```
   
 🛠️**Step 5: Create Health Check**
 
+```bash
 gcloud compute health-checks create http web-health-check \
   --port=80
+```
   
 🛠️ **Step 6: Create Backend Service and Add MIG**
 
+```bash
 gcloud compute backend-services create web-backend \
   --protocol=HTTP \
   --port-name=http \
   --health-checks=web-health-check \
   --global
 
+
 gcloud compute backend-services add-backend web-backend \
   --instance-group=web-mig \
   --instance-group-zone=us-central1-a \
   --global
-  
+```
+
 🛠️**Step 7: Create URL Map and Target Proxy**
 
+```bash
 gcloud compute url-maps create web-map \
   --default-service=web-backend
 
 gcloud compute target-http-proxies create web-proxy \
   --url-map=web-map
+```
   
 🛠️ **Step 8: Reserve Global IP and Create Forwarding Rule**
 
+```bash
 gcloud compute addresses create web-ip --global
 
 gcloud compute forwarding-rules create web-rule \
@@ -85,10 +101,14 @@ gcloud compute forwarding-rules create web-rule \
   --global \
   --target-http-proxy=web-proxy \
   --ports=80
+```
   
 🛠️ **Step 9: Access the Load Balancer**
 
+```bash
 gcloud compute addresses describe web-ip --global
+```
+
 Copy the IP and access it in the browser — it should hit one of your web servers!
 
 📦**Real-World DevOps Use Case**
