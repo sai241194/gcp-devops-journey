@@ -96,7 +96,7 @@ Protocols: Allow TCP port 80
 
 Click Create
 
-🛠️** Step 5: Create a Health Check**
+🛠️**Step 5: Create a Health Check**
 
 Go to Network services → Health checks
 
@@ -112,7 +112,7 @@ Port: 80
 
 Click Create
 
-🛠️** Step 6: Create Backend Service and Attach MIG**
+🛠️**Step 6: Create Backend Service and Attach MIG**
 
 Go to Network services → Load balancing
 
@@ -135,7 +135,7 @@ Attach the health check (web-health-check)
 
 Click Next
 
-🛠️** Step 7: Configure URL Map and Frontend**
+🛠️**Step 7: Configure URL Map and Frontend**
 
 In the same wizard:
 
@@ -152,7 +152,7 @@ Create a new global IP (name it web-ip)
 
 Click Create
 
-🛠️** Step 8: Access the Load Balancer**
+🛠️**Step 8: Access the Load Balancer**
 
 Go to VPC → External IP addresses
 
@@ -186,7 +186,7 @@ Query:
 
 resource.type="http_load_balancer"
 
-📦** Real-World DevOps Use Case**
+📦**Real-World DevOps Use Case**
 
 You need to deploy a frontend web app behind a highly available, globally accessible HTTP load balancer. It must:
 
