@@ -127,10 +127,12 @@ Monitoring of backend status via logs
 
 📊**Enable Backend Logging**
 
+```bash
 gcloud compute backend-services update web-backend \
   --enable-logging \
   --logging-sample-rate=1.0 \
   --global
+  ```
   
 ✅**Key Takeaways**
 
