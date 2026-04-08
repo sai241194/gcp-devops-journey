@@ -18,6 +18,7 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 
 🛠️**Step 1: Create a Startup Script for Web Server**
 
+Bash
 cat <<EOF > startup.sh
 #!/bin/bash
 apt update
