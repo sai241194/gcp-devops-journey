@@ -18,8 +18,7 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 
 🛠️**Step 1: Create a Startup Script for Web Server**
 
-bash
-cat <<'EOF' > startup.sh
+cat <<EOF > startup.sh
 #!/bin/bash
 apt update
 apt install -y nginx
@@ -96,9 +95,13 @@ Copy the IP and access it in the browser — it should hit one of your web serve
 You're deploying a stateless web app that must remain highly available even if one zone goes down. You want:
 
 Autoscaling
+
 Global load balancing
+
 Health check-based instance removal
+
 Monitoring of backend status via logs
+
 ✅ MIG + Load Balancer + Multi-zone + Logging gives full production-grade setup.
 
 📊**Enable Backend Logging**
@@ -111,7 +114,11 @@ gcloud compute backend-services update web-backend \
 ✅**Key Takeaways**
 
 MIGs automate scaling, healing, and zone distribution.
+
 HTTP(S) Load Balancer routes traffic based on health and proximity.
+
 Health checks ensure only healthy instances serve traffic.
+
 Logs provide visibility into traffic patterns and backend health.
+
 This is the foundation of production-grade, HA GCP deployments for DevOps teams.
