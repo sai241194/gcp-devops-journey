@@ -18,14 +18,14 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 
 🛠️**Step 1: Create a Startup Script for Web Server**
 
-<bash>
 cat <<EOF > startup.sh
 #!/bin/bash
+
 apt update
 apt install -y nginx
 echo "Welcome to Day-7 MIG Demo - $(hostname)" > /var/www/html/index.html
 EOF
-</bash>
+
 
 🛠️ **Step 2: Create Instance Template**
 
